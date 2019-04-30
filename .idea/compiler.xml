@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cif-service" />
         <module name="config-server" />
         <module name="eurika-server" />
+        <module name="lending-service" />
         <module name="spring-cloud-demo" />
+        <module name="treasuary-service" />
+        <module name="ui-server" />
       </profile>
     </annotationProcessing>
   </component>

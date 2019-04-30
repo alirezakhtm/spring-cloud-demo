@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eurika-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cif-service/pom.xml" />
+        <option value="$PROJECT_DIR$/treasuary-service/pom.xml" />
+        <option value="$PROJECT_DIR$/lending-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ui-server/pom.xml" />
       </list>
     </option>
   </component>
