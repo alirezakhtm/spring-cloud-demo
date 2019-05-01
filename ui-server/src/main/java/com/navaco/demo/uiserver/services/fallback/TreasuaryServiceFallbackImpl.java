@@ -20,7 +20,12 @@ public class TreasuaryServiceFallbackImpl implements TreasuaryService {
     }
 
     private Treasuary getNullObject() {
-        return Treasuary.builder().id(0).money("Unknown").ni("Unknown").build();
+        Treasuary treasuary = new Treasuary();
+        treasuary.setId(0);
+        treasuary.setMoney("Unknown");
+        treasuary.setNi("Unknown");
+        return treasuary;
+//        return Treasuary.builder().id(0).money("Unknown").ni("Unknown").build();
     }
 
     private List<Treasuary> getNullList(){

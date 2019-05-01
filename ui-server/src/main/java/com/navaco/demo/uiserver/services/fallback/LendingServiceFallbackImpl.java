@@ -21,7 +21,11 @@ public class LendingServiceFallbackImpl implements LendingService {
     }
 
     private Lending getNullObject(){
-        Lending lending = Lending.builder().id(0).lening("Unknown").ni("Unknown").build();
+//        Lending lending = Lending.builder().id(0).lening("Unknown").ni("Unknown").build();
+        Lending lending = new Lending();
+        lending.setId(0);
+        lending.setNi("Unknown");
+        lending.setLening("Unknown");
         return lending;
     }
 

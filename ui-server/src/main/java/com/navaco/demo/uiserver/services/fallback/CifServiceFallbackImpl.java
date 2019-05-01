@@ -23,7 +23,11 @@ public class CifServiceFallbackImpl implements CifServices {
     }
 
     private User getNullObject(){
-        User user = User.builder().id(0).name("Unknown").family("Unknown").ni("Unknown").build();
+//        User user = User.builder().id(0).name("Unknown").family("Unknown").ni("Unknown").build();
+        User user = new User();
+        user.setId(0);
+        user.setName("Unknown");
+        user.setFamily("Unknown");
         return user;
     }
 }

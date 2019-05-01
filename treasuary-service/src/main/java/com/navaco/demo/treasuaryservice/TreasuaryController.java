@@ -14,7 +14,6 @@ public class TreasuaryController {
     @Autowired
     private TreasuaryRepository treasuaryRepository;
 
-
     @RequestMapping(value = "/treasuary-info", method = RequestMethod.GET)
     public List<Treasuary> getAllTreasuaryInformation(){
         return (List<Treasuary>) this.treasuaryRepository.findAll();
