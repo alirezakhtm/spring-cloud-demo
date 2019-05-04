@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cd290e-7d9a-4d90-8860-33988962e35c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/eureka-service-table.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/home-page.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pics/service-map.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/TotalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/totalinfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Lending.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Lending.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Treasuary.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Treasuary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +49,8 @@
       <file leaf-file-name="TreasuaryService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="87">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +58,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CifServices.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/CifServices.java">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="629">
+                <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="34">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TotalInfoTbl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,105 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/pom.xml">
+      <file leaf-file-name="UiTotalInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Treasuary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Treasuary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lending.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Lending.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CifServiceFallbackImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LendingServiceFallbackImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="178">
+              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,8 +124,8 @@
       <file leaf-file-name="TreasuaryServiceFallbackImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,14 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreasuaryController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java">
+      <file leaf-file-name="LendingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="138">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -201,6 +155,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>/</find>
+      <find>treasuary</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,20 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cif-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cif-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryServiceApplication.java" />
-        <option value="$PROJECT_DIR$/cif-service/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/Treasuary.java" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryRepository.java" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" />
-        <option value="$PROJECT_DIR$/treasuary-service/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingServiceApplication.java" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/Lending.java" />
         <option value="$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingRepository.java" />
         <option value="$PROJECT_DIR$/lending-service/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties" />
@@ -234,7 +175,6 @@
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/CifServices.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/CifServiceFallbackImpl.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/LendingServiceFallbackImpl.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/LendingService.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/UiController.java" />
@@ -248,11 +188,7 @@
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/LendingService.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiCifController.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiLendingController.java" />
-        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" />
-        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" />
-        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/ui-server/pom.xml" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Lending.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Treasuary.java" />
@@ -260,6 +196,25 @@
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java" />
+        <option value="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/TotalInfo.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiHome.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/jquery-ui.css" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery.min.js" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-1.12.4.min.js" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.min.js" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/totalinfo.html" />
+        <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -303,140 +258,15 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuary-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuary-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuary-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuary-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuary-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="treasuaryservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="fallback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiserver" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -459,6 +289,9 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.navaco.demo.uiserver.services.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\code-examples\my-projects\spring-cloud-demo\ui-server\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -500,10 +333,6 @@
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.navaco.configserver.ConfigServerApplication" />
-    </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
     </configuration>
     <configuration name="EurikaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eurika-server" />
@@ -550,7 +379,6 @@
       <item itemvalue="Spring Boot.TreasuaryServiceApplication" />
       <item itemvalue="Spring Boot.LendingServiceApplication" />
       <item itemvalue="Spring Boot.UiServerApplication" />
-      <item itemvalue="Spring Boot.DemoApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -564,7 +392,8 @@
       <option name="presentableId" value="Default" />
       <updated>1556522297997</updated>
       <workItem from="1556522301343" duration="52414000" />
-      <workItem from="1556719512691" duration="1101000" />
+      <workItem from="1556719512691" duration="1209000" />
+      <workItem from="1556945619861" duration="16439000" />
     </task>
     <task id="LOCAL-00001" summary="[#02]">
       <created>1556635546523</created>
@@ -580,15 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556719140846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[#03] lombok lib has been removed.">
+      <created>1556720678389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556720678389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53515000" />
+    <option name="totallyTimeSpent" value="70062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -608,13 +443,14 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32838285" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32838285" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.3487842" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.26595744" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" sideWeight="0.5012285" side_tool="true" weight="0.25" />
@@ -623,7 +459,6 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +470,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[#02]" />
     <MESSAGE value="[#03] services modified and ui-service improved." />
-    <option name="LAST_COMMIT_MESSAGE" value="[#03] services modified and ui-service improved." />
+    <MESSAGE value="[#03] lombok lib has been removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="[#03] lombok lib has been removed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,97 +479,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurika-server/src/main/java/com/navaco/demo/eurikaserver/EurikaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurika-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/Lending.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -783,50 +528,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="37" column="44" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="25" selection-start-line="16" selection-start-column="4" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiController.java" />
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/UiServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -844,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/ui/Model.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -858,23 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="69" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/LendingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,16 +571,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -922,26 +598,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/CifServices.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="136">
           <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -951,97 +610,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/model/Lending.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-328">
-          <folding>
-            <element signature="e#0#1673#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-328" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
     <entry file="file://$PROJECT_DIR$/ui-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
+        <state relative-caret-position="1003">
           <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Treasuary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/Lending.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="374">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1051,18 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1071,11 +664,235 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="56" lean-forward="true" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+        <state relative-caret-position="206">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="1310" column="1" selection-start-line="1310" selection-start-column="1" selection-end-line="1310" selection-end-column="1" />
+          <folding>
+            <element signature="e#3901#3986#2" expanded="true" />
+            <element signature="e#14895#17244#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37481" selection-start-line="5" selection-start-column="37481" selection-end-line="5" selection-end-column="37481" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/TotalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-1.12.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1006" selection-start-line="4" selection-start-column="1006" selection-end-line="4" selection-end-column="1006" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27161" selection-start-line="12" selection-start-column="27161" selection-end-line="12" selection-end-column="27161" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="70" selection-start-line="70" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/totalinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="54" column="34" lean-forward="true" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pics/home-page.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="629">
+            <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,15 +1,15 @@
-<!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Spring Cloud Demo</title>
 
     <link rel="stylesheet" th:href="@{jquery-ui.css}"/>
     <link rel="stylesheet" th:href="@{bootstrap.min.css}"/>
     <link rel="stylesheet" th:href="@{css/site.css}"/>
+
 
 </head>
 <body>
@@ -24,20 +24,38 @@
 <br>
 <div class="container">
     <div class="page-header">
-        <h1>Lending information table</h1>
+        <h1>All Links</h1>
     </div>
-
-    <table class="table table-striped table-bordered">
+    <table class="table table-striped table-bordered table-hover">
+        <thead>
         <tr>
-            <td>ID</td>
-            <td>National Identity</td>
-            <td>Lend</td>
+            <td>Pages</td>
+            <td>Link</td>
+            <td>Shortcut</td>
         </tr>
-        <tr th:each="lending: ${lendings}">
-            <td th:text="${lending.id}">ID</td>
-            <td th:text="${lending.ni}">NI</td>
-            <td th:text="${lending.lening}">Lend</td>
+        </thead>
+        <tbody>
+        <tr>
+            <td>CIF information page</td>
+            <td>/cif-all</td>
+            <td><a class="btn btn-primary" href="/cif-all">Go to page</a></td>
         </tr>
+        <tr>
+            <td>Treasury information page</td>
+            <td>/treasury-all</td>
+            <td><a class="btn btn-primary" href="/treasury-all">Go to page</a></td>
+        </tr>
+        <tr>
+            <td>Lending information page</td>
+            <td>/lending-all</td>
+            <td><a class="btn btn-primary" href="/lending-all">Go to page</a></td>
+        </tr>
+        <tr>
+            <td>Total information page</td>
+            <td>/total-info</td>
+            <td><a class="btn btn-primary" href="/total-info">Go to page</a></td>
+        </tr>
+        </tbody>
     </table>
 </div>
 <br>

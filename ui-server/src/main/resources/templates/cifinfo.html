@@ -7,16 +7,16 @@
 
     <title>Spring Cloud Demo</title>
 
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-darkness/jquery-ui.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/site.css"/>
+    <link rel="stylesheet" th:href="@{jquery-ui.css}"/>
+    <link rel="stylesheet" th:href="@{bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{css/site.css}"/>
 
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Spring Cloud</a>
+            <a class="navbar-brand" href="/">Spring Cloud</a>
         </div>
     </div>
 </nav>
@@ -42,6 +42,7 @@
         </tr>
     </table>
 </div>
+<br>
 <footer class="footer navbar-inverse navbar-fixed-bottom">
     <div class="container">
         <div class="row">
@@ -51,9 +52,8 @@
     </div>
 </footer>
 
-<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script th:src="@{jquery-1.12.4.min.js}"></script>
+<script th:src="@{jquery-ui.min.js}"></script>
 <script src="js/site.js"></script>
 </body>
 </html>

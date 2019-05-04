@@ -30,7 +30,7 @@ public class UiTreasuaryController {
         return this.treasuaryService.getTreasuaryByNI(ni);
     }
 
-    @RequestMapping(value = "/treasuary-all", method = RequestMethod.GET)
+    @RequestMapping(value = "/treasury-all", method = RequestMethod.GET)
     public String showTreasuaryTable(Model model){
         model.addAttribute("treasuaries", this.treasuaryService.getAllTreasuaryInformation());
         return "treasuaryinfo";

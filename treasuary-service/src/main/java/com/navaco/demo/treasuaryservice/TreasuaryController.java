@@ -24,5 +24,4 @@ public class TreasuaryController {
         return this.treasuaryRepository.findAllByNi(ni);
     }
 
-
 }
