@@ -26,9 +26,9 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  that disable every microservice and discern it)
  
  # How to use
- Run every module according to follow:
- * eureka-server
- * config-server
+ Run following modules (order is important):
+ * eureka-server (it can be monitored via [http://localhost:8761](http://localhost:8761)) 
+ * config-server 
  * cif-service, lending-service, treasury-service, ui-service
  
  Eureka come up on 8761 and you can see page as follow:
