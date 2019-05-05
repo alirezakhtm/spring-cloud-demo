@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cd290e-7d9a-4d90-8860-33988962e35c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pics/eureka-service-table.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/home-page.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pics/service-map.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/model/TotalInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/static/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/totalinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cif-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurika-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lending-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/treasuary-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/TreasuaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/cifinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/lendinginfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,100 +35,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreasuaryService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="11" column="80" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReadMe.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="629">
-                <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="38" />
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurika-server/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="62" selection-end-line="2" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lending-service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="64" selection-end-line="2" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/treasuary-service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-server/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="40" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="221">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TotalInfoTbl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UiTotalInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreasuaryServiceFallbackImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LendingController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurika-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -164,15 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingRepository.java" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java" />
-        <option value="$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/User.java" />
-        <option value="$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/CifRepository.java" />
-        <option value="$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/CifController.java" />
-        <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/CifServices.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/CifServiceFallbackImpl.java" />
         <option value="$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/LendingServiceFallbackImpl.java" />
@@ -215,6 +167,15 @@
         <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/totalinfo.html" />
         <option value="$PROJECT_DIR$/ui-server/src/main/resources/templates/treasuaryinfo.html" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/cif-service/DockerFile" />
+        <option value="$PROJECT_DIR$/cif-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/config-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/eurika-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/lending-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/treasuary-service/Dockerfile" />
+        <option value="$PROJECT_DIR$/ui-server/Dockerfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -230,6 +191,12 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -248,6 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,14 +227,17 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pics" type="462c0819:PsiDirectoryNode" />
+              <item name="eurika-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="lending-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -282,10 +254,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.navaco.demo.uiserver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\code-examples\my-projects\spring-cloud-demo\ui-server" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.navaco.demo.uiserver.services.model" />
@@ -306,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LendingServiceApplication">
+  <component name="RunManager" selected="Spring Boot.EurikaServerApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -393,7 +369,8 @@
       <updated>1556522297997</updated>
       <workItem from="1556522301343" duration="52414000" />
       <workItem from="1556719512691" duration="1209000" />
-      <workItem from="1556945619861" duration="16439000" />
+      <workItem from="1556945619861" duration="17965000" />
+      <workItem from="1557028840028" duration="12239000" />
     </task>
     <task id="LOCAL-00001" summary="[#02]">
       <created>1556635546523</created>
@@ -416,22 +393,36 @@
       <option name="project" value="LOCAL" />
       <updated>1556720678389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Version 0.1.0-SNAPSHOT">
+      <created>1556973147397</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556973147398</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Version 0.1.0-SNAPSHOT">
+      <created>1556973814523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556973814523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70062000" />
+    <option name="totallyTimeSpent" value="83827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="2" visible="true" weight="0.32838285" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
@@ -443,14 +434,13 @@
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32838285" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32838285" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.26595744" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.26975685" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" sideWeight="0.5012285" side_tool="true" weight="0.25" />
@@ -459,6 +449,7 @@
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +462,8 @@
     <MESSAGE value="[#02]" />
     <MESSAGE value="[#03] services modified and ui-service improved." />
     <MESSAGE value="[#03] lombok lib has been removed." />
-    <option name="LAST_COMMIT_MESSAGE" value="[#03] lombok lib has been removed." />
+    <MESSAGE value="Version 0.1.0-SNAPSHOT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.1.0-SNAPSHOT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -479,70 +471,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/CifRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/CifServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/java/com/navaco/demo/cifservice/CifController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="33" column="51" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiController.java" />
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/UiServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/java/com/navaco/demo/treasuaryservice/Treasuary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/treasuary-service/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -568,9 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,16 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/CifServices.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -642,23 +554,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,10 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="1310" column="1" selection-start-line="1310" selection-start-column="1" selection-end-line="1310" selection-end-column="1" />
-          <folding>
-            <element signature="e#3901#3986#2" expanded="true" />
-            <element signature="e#14895#17244#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -687,9 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,9 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="37481" selection-start-line="5" selection-start-column="37481" selection-end-line="5" selection-end-column="37481" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -714,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,27 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1006" selection-start-line="4" selection-start-column="1006" selection-end-line="4" selection-end-column="1006" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="27161" selection-start-line="12" selection-start-column="27161" selection-end-line="12" selection-end-column="27161" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -807,17 +663,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/ui/UiTotalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="204">
           <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -827,7 +678,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/business/TotalInfoTbl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="391">
           <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -837,7 +688,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="119">
           <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -847,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lending-service/src/main/java/com/navaco/demo/lendingservice/LendingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="170">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
@@ -875,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/TreasuaryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="68">
           <caret line="11" column="80" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -883,16 +734,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pics/home-page.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="629">
-            <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <first_editor relative-caret-position="402">
+            <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cif-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="84" column="12" lean-forward="true" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cif-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="53" lean-forward="true" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurika-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="62" selection-end-line="2" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lending-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="64" selection-end-line="2" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasuary-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurika-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-server/src/main/java/com/navaco/demo/uiserver/services/api/CifServices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
         </state>
       </provider>
     </entry>
