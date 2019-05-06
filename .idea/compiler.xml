@@ -9,6 +9,7 @@
         <module name="cif-service" />
         <module name="config-server" />
         <module name="eurika-server" />
+        <module name="kafka-consumer" />
         <module name="lending-service" />
         <module name="spring-cloud-demo" />
         <module name="treasuary-service" />
