@@ -26,6 +26,22 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  that disable every microservice and discern it)
  
  # How to use
+ For global config module you must copy all files in ```configfiles``` into your desired directory and change the
+ ```config-server/src/main/resources/application.properties``` as follow:
+ 
+ ```
+ spring.cloud.config.server.git.uri=<your-desired-directory>
+ ```
+ 
+ initialize a git repository on this directory
+ 
+ ```
+ $ cd <your-desired-directory>
+ $ git init
+ $ git add --all
+ $ git commit -m "initial commit"
+ ```
+ 
  Run following modules (order is important):
  * eureka-server (it can be monitored via [http://localhost:8761](http://localhost:8761)) 
  * config-server 
