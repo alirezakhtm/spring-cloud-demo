@@ -53,16 +53,17 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  ![eureka service table](pics/eureka-service-table.JPG)
  
  ## Docker
- Docker container IP for eureka must be 172.18.0.16 and for config-server must be 172.18.0.1 . After creating 
+ Docker container IP for eureka must be 172.18.0.16 and for config-server must be 172.18.0.2 . After creating 
  docker images these commands must be used.
  
  ```
- $ docker run -itd --name eureka-server --ip 172.18.0.16 eureka-server
- $ docker run -itd --name config-server --ip 172.18.0.1 config-server -p 8761:8761
- $ docker run -itd --name cif-service cif-service
- $ docker run -itd --name kafka-consumer kafka-consumer
- $ docker run -itd --name lending-service lending-service
- $ docker run -itd --name treasury-service treasury-service
- $ docker run -itd --name ui-server ui-server -p 8585:8585
+ $ docker network create --subnet=172.18.0.0/16 my-network
+ $ docker run -itd --name eureka-server --ip 172.18.0.16 -p 8761:8761 --net my-network eureka-server
+ $ docker run -itd --name config-server --ip 172.18.0.2 -p 9000:9000 --net my-network config-server
+ $ docker run -itd --name cif-service --net my-network cif-service
+ $ docker run -itd --name kafka-consumer --net my-network kafka-consumer
+ $ docker run -itd --name lending-service --net my-network lending-service
+ $ docker run -itd --name treasury-service --net my-network treasury-service
+ $ docker run -itd --name ui-server -p 8585:8585 --net my-network ui-server
  ```
  
