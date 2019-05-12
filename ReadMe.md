@@ -26,6 +26,7 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  that disable every microservice and discern it)
  
  # How to use
+ ## Local
  For global config module you must copy all files in ```configfiles``` into your desired directory and change the
  ```config-server/src/main/resources/application.properties``` as follow:
  
@@ -49,6 +50,19 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  
  Eureka come up on 8761 and you can see page as follow:
  
- 
  ![eureka service table](pics/eureka-service-table.JPG)
+ 
+ ## Docker
+ Docker container IP for eureka must be 172.18.0.16 and for config-server must be 172.18.0.1 . After creating 
+ docker images these commands must be used.
+ 
+ ```
+ $ docker run -itd --name eureka-server --ip 172.18.0.16 eureka-server
+ $ docker run -itd --name config-server --ip 172.18.0.1 config-server -p 8761:8761
+ $ docker run -itd --name cif-service cif-service
+ $ docker run -itd --name kafka-consumer kafka-consumer
+ $ docker run -itd --name lending-service lending-service
+ $ docker run -itd --name treasury-service treasury-service
+ $ docker run -itd --name ui-server ui-server -p 8585:8585
+ ```
  

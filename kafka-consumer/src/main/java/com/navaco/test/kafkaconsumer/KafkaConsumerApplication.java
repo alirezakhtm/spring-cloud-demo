@@ -6,6 +6,10 @@ import org.springframework.cloud.bus.jackson.RemoteApplicationEventScan;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
 @SpringBootApplication
 @RemoteApplicationEventScan
 @EnableDiscoveryClient
