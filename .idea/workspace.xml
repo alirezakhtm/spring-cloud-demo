@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="85cd290e-7d9a-4d90-8860-33988962e35c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" afterDir="false" />
@@ -444,7 +443,7 @@
       <workItem from="1557113598722" duration="20489000" />
       <workItem from="1557202447042" duration="12176000" />
       <workItem from="1557549417376" duration="24643000" />
-      <workItem from="1557720986498" duration="8801000" />
+      <workItem from="1557720986498" duration="9045000" />
     </task>
     <task id="LOCAL-00001" summary="[#02]">
       <created>1556635546523</created>
@@ -530,15 +529,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557669012557</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="configuration files edited for being compatible with docker.">
+      <created>1557744844847</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557744844847</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150618000" />
+    <option name="totallyTimeSpent" value="150862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -592,7 +597,8 @@
     <MESSAGE value="ReadMe.md Updated" />
     <MESSAGE value="Configuration made for docker" />
     <MESSAGE value="Dockerfiles and ReadMe.md edited." />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfiles and ReadMe.md edited." />
+    <MESSAGE value="configuration files edited for being compatible with docker." />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration files edited for being compatible with docker." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
