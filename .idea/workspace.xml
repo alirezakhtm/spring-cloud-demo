@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cd290e-7d9a-4d90-8860-33988962e35c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-consumer/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cif-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/cif-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/navaco/test/kafkaconsumer/KafkaConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/java/com/navaco/test/kafkaconsumer/KafkaConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-consumer/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-consumer/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lending-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/lending-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasuary-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/treasuary-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,15 +29,65 @@
     <favorites_list name="spring-cloud-demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ReadMe.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="152">
-                <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+              <first_editor relative-caret-position="83">
+                <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurika-server/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cif-service/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lendingservice.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/configfiles/lendingservice.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,6 +106,7 @@
     <findStrings>
       <find>/</find>
       <find>treasuary</find>
+      <find>172.18.0.1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,12 +160,12 @@
         <option value="$PROJECT_DIR$/ui-server/Dockerfile" />
         <option value="$PROJECT_DIR$/kafka-consumer/src/main/java/com/navaco/test/kafkaconsumer/KafkaConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/kafka-consumer/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -143,15 +185,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="kafka-consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="ui-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -184,8 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,11 +224,50 @@
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="configfiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +284,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -246,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurikaServerApplication">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -316,6 +386,29 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Local">
+      <deployment type="docker-image">
+        <settings>
+          <option name="JSONFilePath" value="" />
+          <option name="command" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="containerName" value="cif" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="cif-service:latest" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5656" />
+                <option name="hostPort" value="9090" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="startBrowserSettings">
+            <browser url="http://127.0.0.1" />
+          </option>
+        </settings>
+      </deployment>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurikaServerApplication" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
@@ -324,7 +417,15 @@
       <item itemvalue="Spring Boot.LendingServiceApplication" />
       <item itemvalue="Spring Boot.UiServerApplication" />
       <item itemvalue="Spring Boot.KafkaConsumerApplication" />
+      <item itemvalue="Docker.Docker Image" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Docker Image" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -342,7 +443,8 @@
       <workItem from="1557028840028" duration="12921000" />
       <workItem from="1557113598722" duration="20489000" />
       <workItem from="1557202447042" duration="12176000" />
-      <workItem from="1557549417376" duration="19924000" />
+      <workItem from="1557549417376" duration="24643000" />
+      <workItem from="1557720986498" duration="8801000" />
     </task>
     <task id="LOCAL-00001" summary="[#02]">
       <created>1556635546523</created>
@@ -407,49 +509,71 @@
       <option name="project" value="LOCAL" />
       <updated>1557578480647</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dockerfiles and ReadMe.md edited.">
+      <created>1557655806676</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655806676</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dockerfiles and ReadMe.md edited.">
+      <created>1557655830847</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557655830847</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Dockerfiles and ReadMe.md edited.">
+      <created>1557669012557</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557669012557</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137098000" />
+    <option name="totallyTimeSpent" value="150618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.32978722" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="0" />
-      <window_info anchor="bottom" id="Docker" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="14" weight="0.50165015" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32838285" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.4108911" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="5" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.4108911" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32838285" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32838285" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.2819149" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.28647417" />
       <window_info anchor="right" id="Bean Validation" order="6" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="3" sideWeight="0.5012285" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32838285" />
+      <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.32838285" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32838285" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,18 +591,37 @@
     <MESSAGE value="Kafka added to project as event bus." />
     <MESSAGE value="ReadMe.md Updated" />
     <MESSAGE value="Configuration made for docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuration made for docker" />
+    <MESSAGE value="Dockerfiles and ReadMe.md edited." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfiles and ReadMe.md edited." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server/configfiles/kafkaconsumer.properties">
+    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cif-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="104" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/configfiles/lendingservice.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <caret column="16" selection-start-column="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -640,11 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,25 +798,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lending-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -708,17 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/kafka-consumer/src/main/java/com/navaco/test/kafkaconsumer/KafkaConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,9 +853,6 @@
           <caret line="5" column="105" selection-start-line="5" selection-start-column="105" selection-end-line="5" selection-end-column="105" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eurika-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/kafka-consumer/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -778,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,19 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -811,20 +910,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/configfiles/lendingservice.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="152">
-            <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+          <first_editor relative-caret-position="83">
+            <caret line="64" column="74" lean-forward="true" selection-start-line="64" selection-start-column="74" selection-end-line="64" selection-end-column="74" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurika-server/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cif-service/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
