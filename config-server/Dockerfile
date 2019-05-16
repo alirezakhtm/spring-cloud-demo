@@ -8,6 +8,7 @@ COPY "configfiles/kafkaconsumer.properties" "/root/config/global-config/"
 COPY "configfiles/lendingservice.properties" "/root/config/global-config/"
 COPY "configfiles/treasuaryservice.properties" "/root/config/global-config/"
 COPY "configfiles/uiserver.properties" "/root/config/global-config/"
+COPY "configfiles/gateway-server.properties" "/root/config/global-config/"
 RUN apt-get install -qy git
 CMD ["git", "config", "--global", "user.email", "alireza.khtm@gmail.com"]
 CMD ["git", "config", "--global", "user.name", "alirezakhtm"]

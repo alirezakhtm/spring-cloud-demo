@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/lending-service/pom.xml" />
         <option value="$PROJECT_DIR$/ui-server/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-server/pom.xml" />
       </list>
     </option>
   </component>

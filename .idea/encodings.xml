@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/cif-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurika-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lending-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/treasuary-service" charset="UTF-8" />

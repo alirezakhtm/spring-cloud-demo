@@ -9,6 +9,7 @@
         <module name="cif-service" />
         <module name="config-server" />
         <module name="eurika-server" />
+        <module name="gateway-server" />
         <module name="kafka-consumer" />
         <module name="lending-service" />
         <module name="treasuary-service" />
