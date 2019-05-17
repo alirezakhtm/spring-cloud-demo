@@ -10,5 +10,6 @@
     <file url="file://$PROJECT_DIR$/lending-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/treasuary-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ui-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zuul-server" charset="UTF-8" />
   </component>
 </project>
