@@ -24,6 +24,8 @@
         <module>kafka-consumer</module>
         <module>treasuary-service</module>
         <module>ui-server</module>
+        <module>gateway-server</module>
+        <module>zuul-server</module>
     </modules>
 
 </project>
