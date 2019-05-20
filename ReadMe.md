@@ -13,7 +13,7 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  pressing button 'Go to page' on attribute row of table.
  
  
- ![service map](pics/service-map.JPG)
+ ![service map](pics/architecture.png)
  
  
  ## Links
