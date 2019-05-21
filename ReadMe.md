@@ -67,3 +67,15 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  $ docker run -itd --name ui-server -p 8585:8585 --net my-network ui-server
  ```
  
+ # Load Test
+ Locust load test has been used for loading test in this project. All requests send to gateway server module.
+ load test simulation done with 20000 users number and 100 users hatching. 
+ 
+ ![Total User](pics/number-of-users.JPG)
+ 
+ ![Response Time](pics/response-times.JPG)
+ 
+ ![TPS](pics/total-request-per-second.JPG)
+ 
+ ![Result Table](pics/table.JPG)
+ 
