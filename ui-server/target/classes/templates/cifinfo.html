@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Spring Cloud Demo</title>
+
+    <link rel="stylesheet" th:href="@{jquery-ui.css}"/>
+    <link rel="stylesheet" th:href="@{bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{css/site.css}"/>
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Spring Cloud</a>
+        </div>
+    </div>
+</nav>
+<br>
+<br>
+<div class="container">
+    <div class="page-header">
+        <h1>CIF information table</h1>
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <tr>
+            <td>ID</td>
+            <td>National Identity</td>
+            <td>Name</td>
+            <td>Family</td>
+        </tr>
+        <tr th:each="user: ${users}">
+            <td th:text="${user.id}">ID</td>
+            <td th:text="${user.ni}">NI</td>
+            <td th:text="${user.name}">NAMR</td>
+            <td th:text="${user.family}">FAMILY</td>
+        </tr>
+    </table>
+</div>
+<br>
+<footer class="footer navbar-inverse navbar-fixed-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"><p class="text-muted">@Copyright 2019 A.R. Khatami Doost</p></div>
+        </div>
+    </div>
+</footer>
+
+<script th:src="@{jquery-1.12.4.min.js}"></script>
+<script th:src="@{jquery-ui.min.js}"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
