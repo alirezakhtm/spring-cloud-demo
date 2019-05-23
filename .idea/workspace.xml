@@ -2,9 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cd290e-7d9a-4d90-8860-33988962e35c" name="Default" comment="In progressing for adding gateway to project ...">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/treasuary-service/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/treasuary-service/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/cif-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/cif-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/com/navaco/demo/cifservice/CifController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/com/navaco/demo/cifservice/CifRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/com/navaco/demo/cifservice/CifServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/com/navaco/demo/cifservice/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/surefire-reports/TEST-com.navaco.demo.cifservice.CifServiceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/surefire-reports/com.navaco.demo.cifservice.CifServiceApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cif-service/target/test-classes/com/navaco/demo/cifservice/CifServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/navaco/configserver/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/config-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/surefire-reports/TEST-com.navaco.configserver.ConfigServerApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/surefire-reports/com.navaco.configserver.ConfigServerApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/target/test-classes/com/navaco/configserver/ConfigServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/classes/com/navaco/demo/eurikaserver/EurikaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/eurika-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/eurika-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/surefire-reports/TEST-com.navaco.demo.eurikaserver.EurikaServerApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/surefire-reports/com.navaco.demo.eurikaserver.EurikaServerApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurika-server/target/test-classes/com/navaco/demo/eurikaserver/EurikaServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/com/navaco/demo/lendingservice/Lending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/com/navaco/demo/lendingservice/LendingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/com/navaco/demo/lendingservice/LendingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/com/navaco/demo/lendingservice/LendingServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/lending-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/lending-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/surefire-reports/TEST-com.navaco.demo.lendingservice.LendingServiceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/surefire-reports/com.navaco.demo.lendingservice.LendingServiceApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lending-service/target/test-classes/com/navaco/demo/lendingservice/LendingServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/com/navaco/demo/treasuaryservice/Treasuary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/com/navaco/demo/treasuaryservice/TreasuaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/com/navaco/demo/treasuaryservice/TreasuaryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/com/navaco/demo/treasuaryservice/TreasuaryServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/classes/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/surefire-reports/2019-05-14T00-40-32_146-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/surefire-reports/TEST-com.navaco.demo.treasuaryservice.TreasuaryServiceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/surefire-reports/com.navaco.demo.treasuaryservice.TreasuaryServiceApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/test-classes/com/navaco/demo/treasuaryservice/TreasuaryServiceApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/treasuary-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasuary-service/target/treasuary-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/bootstrap.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/UiServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/api/CifServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/api/KafaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/api/LendingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/api/TreasuaryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/business/TotalInfoTbl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/fallback/CifServiceFallbackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/fallback/KafkaFallbackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/fallback/LendingServiceFallbackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/fallback/TreasuaryServiceFallbackImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/model/Lending.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/model/TotalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/model/Treasuary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiCifController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiHome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiKafkaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiLendingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiTotalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/com/navaco/demo/uiserver/services/ui/UiTreasuaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/static/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/cifinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/kafkauserlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/lendinginfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/totalinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/classes/templates/treasuaryinfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/surefire-reports/TEST-com.navaco.demo.uiserver.UiServerApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/surefire-reports/com.navaco.demo.uiserver.UiServerApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/test-classes/com/navaco/demo/uiserver/UiServerApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/ui-server-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-server/target/ui-server-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,7 +213,7 @@
         <entry file="file://$PROJECT_DIR$/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="299">
+              <first_editor relative-caret-position="2250">
                 <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="150" selection-end-column="1" />
               </first_editor>
               <second_editor />
@@ -103,8 +224,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lending-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -407,135 +528,6 @@
       <recent name="D:\Projects\code-examples\my-projects\spring-cloud-demo\ui-server\src\main\resources\static" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ReadMe.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/cif-service/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gateway-server/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gateway-server/src/main/java/ir/navaco/demo/gatewayserver/GatewayServerApplication.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gateway-server/src/main/resources/application.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/kafka-consumer/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/lending-service/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/treasuary-service/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ui-server/src/main/resources/bootstrap.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/zuul-server/pom.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/gateway-server/Dockerfile</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/load-test/loadtest01.py</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/architecture.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/architecture.pptx</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/number-of-users.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/response-times.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/table.JPG</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pics/total-request-per-second.JPG</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -701,6 +693,7 @@
       <workItem from="1557818481945" duration="10387000" />
       <workItem from="1557836271957" duration="14205000" />
       <workItem from="1558625175777" duration="3423000" />
+      <workItem from="1558636398682" duration="136000" />
     </task>
     <task id="LOCAL-00001" summary="[#02]">
       <created>1556635546523</created>
@@ -835,7 +828,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.5012285" side_tool="true" weight="0.25" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.29545453" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4987715" visible="true" weight="0.3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Spring" order="0" weight="0.32838285" />
@@ -846,14 +839,14 @@
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32580644" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.4108911" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.40967742" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" weight="0.50165015" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="SciView" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />

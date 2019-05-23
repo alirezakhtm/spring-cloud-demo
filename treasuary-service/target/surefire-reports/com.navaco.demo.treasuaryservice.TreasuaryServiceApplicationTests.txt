@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.navaco.demo.treasuaryservice.TreasuaryServiceApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.053 s - in com.navaco.demo.treasuaryservice.TreasuaryServiceApplicationTests
