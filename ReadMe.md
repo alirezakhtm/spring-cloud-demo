@@ -69,7 +69,7 @@ and ui-service. The module ui-service up on 8585 you will see as blow table:
  Install MySQL
  
  ```
- docker run --name=mysql --env="MYSQL_ROOT_PASSWORD=root" --net my-network mysql
+ docker run --name=mysql --env="MYSQL_ROOT_PASSWORD=root" --net my-network --ip 172.18.0.15 mysql
  ```
  
  Now create tables and insert data into tables
